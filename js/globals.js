@@ -1,0 +1,2 @@
+/*window.passwordDecrepted;
+window.passwordHash;*/

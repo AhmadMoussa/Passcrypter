@@ -1,0 +1,97 @@
+/* coloring */
+input[type=text]:focus:not([readonly]) + label {
+    color: #FFB400; 
+}
+
+input[type=password]:focus:not([readonly]) + label {
+    color: #FFB400; 
+}
+
+input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #FFB400;
+    box-shadow: 0 1px 0 0 #FFB400; 
+} 
+
+input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=search-md]:focus:not([readonly]), input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #FFB400;
+    box-shadow: 0 1px 0 0 #FFB400;
+}
+
+input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=search-md]:focus:not([readonly]), input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]) + label{
+    color: #FFB400; 
+}
+
+.fa.fa-user.prefix.active {
+    color: #FFB400;
+}
+
+.fa.fa-envelope.prefix.active {
+    color: #FFB400;
+}
+
+
+.fa.fa-tag.prefix.active {
+    color: #FFB400;
+}
+
+
+.fa.fa-pencil.prefix.active {
+    color: #FFB400;
+}
+
+
+main {
+    margin-top: 3rem;
+}
+        
+main .card {
+     margin-bottom: 2rem;
+}
+        
+@media only screen and (max-width: 768px) {
+    .read-more {
+        text-align: center;
+    }
+}
+        
+.navbar {
+    background-color: #0f6256;
+}
+        
+footer.page-footer {
+    background-color: #0f6256;
+    margin-top: 2rem;
+}
+
+/* card images */
+.img-card {
+	margin-top: 10px;
+}
+
+.img-card-container {
+	width: 100%;
+	max-width: 80%;
+    margin: auto;
+}
+
+.credits {
+    color: #ffffff;
+}
+
+/* components */
+.btn-flat {
+    color: #FFB400;
+    font-family: sans-serif;
+    font-size: 100%;
+    padding: 8px 30px;
+    border: none;
+    margin: 10px;
+    text-decoration: none;
+    outline: 0!important;
+    text-transform: uppercase;
+    line-height: inherit;
+}
+
+html, body {
+    height: 100%;
+}

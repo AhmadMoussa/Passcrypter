@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Tester</title>
+
+		<script src="../js/crypto.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript" charset="utf-8" async defer>
+			alert("working");
+
+
+			alert(hashStr("test"));
+
+
+
+
+			/*hashStr("test", function(hash) {
+				alert("Using Promise: "+hash);
+			});
+
+			(async function() {
+			    const hash = await hashStrAsync("test");
+			    alert("Using async/await: "+ hash);
+			}());
+			
+
+			async function hashStrAsync(str) {
+				var crypto = window.crypto || window.msCrypto;
+
+				if(crypto.subtle)
+				{
+				    alert("Cryptography API Supported");
+				    
+				    var hash_value = await crypto.subtle.digest({name: "SHA-256"}, stringToArrayBuffer(str));   
+				    
+				    return arrayBufferToHex(hash_value);
+				}
+				else
+				{
+				    throw "Cryptography API not Supported";
+				}
+			}
+
+			function hashStr(str, onFinish) {
+				var crypto = window.crypto || window.msCrypto;
+
+				if(crypto.subtle)
+				{
+				    alert("Cryptography API Supported");
+				    
+				    var promise = crypto.subtle.digest({name: "SHA-256"}, stringToArrayBuffer(str));   
+
+				    var hash_value;
+				    promise.then(function(result){
+				        hash_value = arrayBufferToHex(result);
+				        onFinish(hash_value);
+				    });
+				}
+				else
+				{
+				    throw "Cryptography API not Supported";
+				}
+			}
+
+			// helper methods
+			function stringToArrayBuffer(str)
+			{
+			    var bytes = new Uint8Array(str.length);
+			    for (var iii = 0; iii < str.length; iii++) 
+			    {
+			        bytes[iii] = str.charCodeAt(iii);
+			    }
+
+			    return bytes;
+			}
+
+			function arrayBufferToString(buffer)
+			{
+			    var str = "";
+			    for (var iii = 0; iii < buffer.byteLength; iii++) 
+			    {
+			        str += String.fromCharCode(buffer[iii]);
+			    }
+
+			    return str;
+			}
+
+			function arrayBufferToHex(buffer) 
+			{
+			    var data_view = new DataView(buffer);
+			    var iii, len, hex = '', c;
+
+			    for(iii = 0, len = data_view.byteLength; iii < len; iii += 1) 
+			    {
+			        c = data_view.getUint8(iii).toString(16);
+			        if(c.length < 2) 
+			        {
+			            c = '0' + c;
+			        }
+			    
+			        hex += c;
+			    }
+
+			    return hex;
+			} */
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

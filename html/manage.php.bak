@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+	<head>
+		<title>PassCrypter</title>
+
+		<?php include "requiredHeader.php"; ?>
+	</head>
+	
+	<body>
+		<header>
+			<!-- Navbar -->
+			<nav class="navbar navbar-toggleable-md navbar-dark">
+	            <div class="container">
+	            	<!-- toggle menu -->
+	                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+	                    <span class="navbar-toggler-icon"></span>
+	                </button>
+
+	                <!-- logo -->
+	                <a class="navbar-brand" href="#">
+	                    <strong>PassCrypter</strong>
+	                </a>
+
+	                <!-- navbar links -->
+	                <div class="collapse navbar-collapse" id="navbarNav1">
+	                    <ul class="navbar-nav mr-auto">
+	                    	<li class="nav-item">
+	                            <a class="nav-link" data-toggle="modal" href="#basicExample">Add</a>
+	                        </li>
+
+	                        <li class="nav-item active">
+	                            <a class="nav-link">Manage <span class="sr-only">(current)</span></a>
+	                        </li>
+	                        
+	                        <li class="nav-item">
+	                            <a href="account.php" class="nav-link">Account</a>
+	                        </li>
+
+	                        <li class="nav-item">
+	                            <a href="contact.php" class="nav-link">Contact</a>
+	                        </li>
+	                    </ul>
+
+	                    <!-- search -->
+	                    <form class="form-inline waves-effect waves-light">
+	                        <input class="form-control" type="text" placeholder="Search">
+	                    </form>
+	                </div>
+	            </div>
+        	</nav>
+		</header>
+
+		<!-- insert modal -->
+		<?php include "addModal.php" ?>
+
+		<main>
+			<!-- main layout -->
+			<div class="container">
+				<!--Page heading-->
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <h2 class="h2-responsive">Sites</h2>
+	                </div>
+	            </div>
+
+	            <br>
+
+	            <!-- site type: social -->
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <h4 class="h4-responsive">Social <span class="text-muted">(2)</span></h4>
+	                </div>
+	            </div>
+
+	            <hr>
+
+	            <!--First row-->
+	            <div class="row wow">
+	                <!--First column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/fb_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Facebook</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+
+	                </div>
+	                <!--/.First column-->
+
+	                <!--Second column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/twitter_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Twitter</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+	                    
+	                </div>
+	                <!--/.Second column-->
+	            </div>
+	            <!--/.First Row -->
+
+	            <!-- site type: All -->
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <h4 class="h4-responsive">All <span class="text-muted">(6)</span></h4>
+	                </div>
+	            </div>
+
+	            <hr>
+
+	            <!--First row-->
+	            <div class="row wow">
+	                <!--First column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/airbnb_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+	                            <!--Title-->
+	                            <p class="card-text"><strong>AirBnb</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+
+	                </div>
+	                <!--/.First column-->
+
+	                <!--Second column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/amazon_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Amazon</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+	                    
+	                </div>
+	                <!--/.Second column-->
+
+	                <!--First column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/fb_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Facebook</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+
+	                </div>
+	                <!--/.Third column-->
+
+	                <!--Fourth column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/twitter_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Twitter</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+	                    
+	                </div>
+	                <!--/.Second column-->
+	            </div>
+	            <!--/ First Row -->
+
+	            <!--Second Row -->
+	            <div class="row wow">
+	               
+	                <!--First column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/evernote_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Evernote</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+
+	                </div>
+	                <!--/.Third column-->
+
+	                <!--Fourth column-->
+	                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.2s">
+	                    <!--Card-->
+	                    <div class="card hoverable">
+
+	                        <!--Card image-->
+	                        <div class="view overlay hm-white-slight img-card-container">
+	                            <img src="../img/logos/dropbox_logo.png" class="img-fluid img-card" alt="">
+	                            <a href="#!">
+	                                <div class="mask"></div>
+	                            </a>
+	                        </div>
+
+	                        <!--Card content-->
+	                        <div class="card-block">
+	                        	<hr>
+
+	                            <!--Title-->
+	                            <p class="card-text"><strong>Dropbox</strong></p>
+
+	                            <!--Text-->
+	                            <p class="card-text text-muted">mail1@mail.com</p>
+	                        </div>
+	                        <!--/.Card content-->
+
+	                    </div>
+	                    <!--/.Card-->
+	                    
+	                </div>
+	                <!--/.Second column-->
+	            </div>
+			</div>
+		</main>
+
+		<!--Footer-->
+		<footer class="page-footer center-on-small-only">
+		<!--Footer links-->
+		<div class="container-fluid">
+		   	<div class="row">
+		        <!--First column-->
+		        <div class="col-md-10 offset-lg-1">
+		            <h5 class="title">PassCrypter</h5>
+		            <p>We are two college students working on this project like it's our full time job to make sure your passwords stay safe. PassCrypt remembers your passwords so you don't have to.</p>
+		        </div>
+		        <!--/.First column-->
+		        <hr class="hidden-md-up">
+		    </div>
+		</div>
+		<!--/.Footer links-->
+
+		<!--Credits-->
+		    <div class="footer-copyright">
+		        <div class="containter-fluid">
+		            Done by <span class="credits">Mouhammed El Zaart and Ahmad Mousa</span>
+		        </div>
+		    </div>
+		    <!--/.Credits-->
+		</footer>
+    	<!--/.Footer-->
+		
+
+		<!-- SCRIPTS -->
+	    <?php include "requiredJS.php" ?>
+
+	    <script>
+	    new WOW().init();
+	    </script>
+	</body>
+</html>
